@@ -5,7 +5,8 @@
     "module": "ESNext", // JS코드의 모듈 시스템을 설정
     "outDir": "dist", // 변환 후 JS파일 저장 위치 지정
     "strict": true, // 타입 검사 엄격 수준을 정하는 옵션
+    "strictNullChecks": false, // 엄격한 null 검사 여부
     "moduleDetection": "force" // 전역모듈이 아닌 독립모듈로 자동화해주는 옵션
   },
-  "include": ["src"] // 변환하고 싶은 ts파일 범위와 위치 지정
+  "include": ["section2/src"] // 변환하고 싶은 ts파일 범위와 위치 지정
 }
